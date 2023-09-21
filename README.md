@@ -14,7 +14,7 @@ Docker instructions :
 Run containers with logs per each container are displayed in this one terminal window.
 `docker compose up`
 
-Run in detached mode (no logs output). Look for logs in Docke Desktop UI.
+Run in detached mode (no logs output). Look for logs in Docker Desktop UI.
 `docker compose up -d`
 
 Run single container.
@@ -25,3 +25,12 @@ Stop containers with all data saved in volumes.
 
 Stop containers with volumes removal. Usefull for clean starts.
 `docker compose down -v`
+
+## Contribution
+- [CONTRIBUTING docs](./Contributing.md)
+
+## License
+This is [Apache 2.0 License](./LICENSE)
+
+## Note
+This is not an officially supported Google product.
