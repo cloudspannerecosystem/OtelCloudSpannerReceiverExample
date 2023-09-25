@@ -12,6 +12,7 @@ receivers:
               - "<YOUR_DATABASE>"
 exporters:
   prometheus:
+    add_metric_suffixes: false # For collector version > 0.84.0
     send_timestamps: true
     endpoint: "0.0.0.0:8889"  
 
